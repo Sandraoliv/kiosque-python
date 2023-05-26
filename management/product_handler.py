@@ -2,6 +2,7 @@ from menu import products
 
 
 def get_product_by_id(num):
+    
     for product in products:
         if product['_id'] == num:
             return product

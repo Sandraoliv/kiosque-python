@@ -15,5 +15,5 @@ def calculate_tab(table: list[dict]):
                 subtotal += price * amount
 
     subtotal = round(subtotal, 2)
-    subtotal_str = "${:.2f}".format(subtotal)
-    return {"subtotal": subtotal_str}
+   
+    return {"subtotal": f'${subtotal}'}
