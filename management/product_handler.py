@@ -51,6 +51,6 @@ def menu_report():
         type_counts[product_type] = type_counts.get(product_type, 0) + 1
     
     most_common_type = max(type_counts, key=type_counts.get)
-    report = f"product_count:{product_count}  - average_price: {average_price} - most_common_type: {most_common_type} "
+    report = f"Products Count: {product_count} - Average Price: ${average_price} - Most Common Type: {most_common_type}"
                 
     return report
